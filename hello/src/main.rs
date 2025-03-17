@@ -1,4 +1,6 @@
 fn main() {
-    let b=20*10;
+
+    let a=10;
+ 
     println!("Hello, world!");
 }
