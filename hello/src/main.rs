@@ -1,6 +1,10 @@
+fn return_value<T>(value: T) -> T {
+    value
+}
+
 fn main() {
-    let b=20*10;
-    let a=10000001;
-    println!("i32: {},{}", b,a);
+    let a=10000000;
+    let b = return_value(20 * 10);
+    println!("i32: {}", a+b);
     println!("Hello, world!");
 }
