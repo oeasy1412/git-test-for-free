@@ -3,8 +3,8 @@ fn return_value<T>(value: T) -> T {
 }
 
 fn main() {
-    let a=10000000;
-    let b = return_value(20 * 10);
+    let a = 10000000;
+    let b = return_value(20 * 25);
     println!("i32: {}", b);
     println!("Hello, world!");
 }
